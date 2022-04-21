@@ -127,6 +127,16 @@ CREATE TABLE cast (
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
 
+INSERT INTO movies (id, title, release_year, rating, studio), 
+VALUES (1, 'Batman Begins', 2005, 'PG-13', 'Warner Bros.'),
+VALUES (2, 'The Dark Knight', 2008, 'PG-13', 'Warner Bros.'), 
+VALUES (3, 'The Dark Knight Rises', 2012, 'PG-13', 'Warner Bros.'); 
+
+INSERT INTO cast (id, first_name, last_name, character_name, movie_id), 
+VALUES (1, 'Christian', 'Bale', 'Bruce Wayne', 1),
+VALUES (1, 'Michael', 'Caine', 'Alfred', 1),
+ 
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
