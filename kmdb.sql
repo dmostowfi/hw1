@@ -134,7 +134,19 @@ VALUES (3, 'The Dark Knight Rises', 2012, 'PG-13', 'Warner Bros.');
 
 INSERT INTO cast (id, first_name, last_name, character_name, movie_id), 
 VALUES (1, 'Christian', 'Bale', 'Bruce Wayne', 1),
-VALUES (1, 'Michael', 'Caine', 'Alfred', 1),
+VALUES (2, 'Michael', 'Caine', 'Alfred', 1),
+VALUES (3, 'Liam', 'Neeson', "Ra's Al Ghul", 1),
+VALUES (4, 'Gary', 'Oldman', 'Commissioner Gordon', 1),
+VALUES (5, 'Christian', 'Bale', 'Bruce Wayne', 2),
+VALUES (6, 'Heath', 'Ledger', 'Joker', 2),
+VALUES (7, 'Aaron', ' Eckhart', 'Harvey Dent', 2),
+VALUES (8, 'Michael', ' Caine', 'Alfred', 2),
+VALUES (9, 'Maggie', ' Gyllenhaal', 'Rachel Dawes', 2),
+VALUES (10, 'Christian', 'Bale', 'Bruce Wayne', 3),
+VALUES (11, 'Gary', 'Oldman', 'Commissioner Gordon', 3),
+VALUES (12, 'Tom', 'Hardy', 'Bane', 3),
+VALUES (13, 'Joseph', 'Gordon-Levitt', 'John Blake', 3),
+VALUES (14, 'Anne', 'Hathaway', 'Selina Kyle', 3),
  
 
 -- Prints a header for the movies output
