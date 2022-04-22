@@ -77,7 +77,7 @@
 -- The Dark Knight Rises  2012           PG-13  Warner Bros.
 
 -- Top Cast
--- ========
+-- ======== 
 
 -- Batman Begins          Christian Bale        Bruce Wayne
 -- Batman Begins          Michael Caine         Alfred
@@ -155,8 +155,6 @@ VALUES (1, 'Christian Bale', 'Bruce Wayne', 1),
 
 -- The SQL statement for the movies output
 -- TODO!
-
---SELECT title, release_year, rating, studio FROM movies;
 SELECT * from movies;
 
 -- Prints a header for the cast output
@@ -164,7 +162,6 @@ SELECT * from movies;
 .print "Top Cast"
 .print "========"
 .print ""
-
 
 -- The SQL statement for the cast output
 -- TODO!
